@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BercailRestaurant/static/css/main.8fbd91bf.css",
+    "main.js": "/BercailRestaurant/static/js/main.23aad4bc.js",
+    "index.html": "/BercailRestaurant/index.html",
+    "main.8fbd91bf.css.map": "/BercailRestaurant/static/css/main.8fbd91bf.css.map",
+    "main.23aad4bc.js.map": "/BercailRestaurant/static/js/main.23aad4bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fbd91bf.css",
+    "static/js/main.23aad4bc.js"
+  ]
+}
