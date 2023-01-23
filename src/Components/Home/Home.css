@@ -1,0 +1,14 @@
+.homePage{
+    background-color: #81632A;
+    margin:0;
+    padding:0;
+    position: absolute;
+    z-index: 2;
+}
+
+.description{
+    margin-top: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    text-align: center;
+}

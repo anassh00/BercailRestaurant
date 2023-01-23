@@ -1,0 +1,18 @@
+.navbarContainer {
+    /* background-color:rgb(31, 31, 31); */
+    color: white;
+    /* padding: 1em; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 7%;
+    width: 95%;
+    z-index: 4;
+}
+
+.navbarContent{
+    display: flex;
+}
