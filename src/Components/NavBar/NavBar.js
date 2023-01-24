@@ -20,7 +20,7 @@ const NavBar = (args) => {
         <div onClick={() => routeChange('/')} style={{cursor: 'pointer', fontWeight : 'bold', color : 'white'}}><img style={{position : 'absolute', zIndex : 8, width : "60px", height : "60px", paddingTop : "20px", paddingLeft : "40px"}} src={image}></img></div>
         <div className='navbarContainer'>
           <div className='navbarContent'>
-          <div onClick={() => routeChange('/')} style={{cursor: 'pointer', marginRight : '72px'}}>Home</div>
+          <div onClick={() => routeChange('/')} style={{cursor: 'pointer', paddingLeft : '300px', marginRight : '72px'}}>Home</div>
           <div onClick={() => routeChange('/Restaurant')} style={{cursor: 'pointer', marginRight : '72px'}}>Le Restaurant</div>
           <div onClick={() => routeChange('/Carte')} style={{cursor: 'pointer', marginRight : '72px'}}>La carte</div>
           <div onClick={() => routeChange('/Reserver')} style={{cursor: 'pointer', marginRight : '72px'}}>Reserver</div>
