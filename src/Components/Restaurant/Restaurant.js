@@ -1,11 +1,14 @@
 import React from 'react';
 import "./Restaurant.css";
-
+import image from '../../Assets/image20.png'
 const Restaurant = () => {
   return (
     <div className='restauPage'>
       <div className='restauTitle'>
-        Like in your Grandma's Home
+        <h1>Like in your Grandma's Home</h1>
+      </div>
+      <div>
+        <img className='logoBercailRestaurant' src={image}></img>
       </div>
       <div className='imageConatiner' style={{height : "400px"}}>
         <img style={{width: "100%"}} src="http://anassh00.github.io/BercailRestaurant/2ea5f954-3cce-41dc-908a-c4241b40b7622.png"></img>
