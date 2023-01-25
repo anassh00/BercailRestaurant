@@ -1,5 +1,5 @@
 .restauPage{
-    background-color: #81632A;
+    background-color: #6f3311;
 }
 
 .restauTitle{
@@ -20,7 +20,7 @@
 .descriptionPageContainer{
     width: 100%;
     height: 500px;
-    background-color: #81632A;
+    background-color: #6f3311;
     position: absolute;
     z-index: 3;
 }
