@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/BercailRestaurant/static/css/main.760c0f8d.css",
-    "main.js": "/BercailRestaurant/static/js/main.fbeebb22.js",
+    "main.css": "/BercailRestaurant/static/css/main.9b53e56c.css",
+    "main.js": "/BercailRestaurant/static/js/main.eed764e8.js",
     "static/media/bckgrndImage.png": "/BercailRestaurant/static/media/bckgrndImage.6fd2ddd6ea9ec0015c7a.png",
+    "static/media/f555e625-4e83-43cd-a6e5-1830229067681.png": "/BercailRestaurant/static/media/f555e625-4e83-43cd-a6e5-1830229067681.7c251791eab02f98965d.png",
+    "static/media/1d5f6bee1.png": "/BercailRestaurant/static/media/50955d9a3ed59650cbcf93ceb4d901381d5f6bee1.8e31715aeaaa6a7dba8d.png",
     "index.html": "/BercailRestaurant/index.html",
-    "main.760c0f8d.css.map": "/BercailRestaurant/static/css/main.760c0f8d.css.map",
-    "main.fbeebb22.js.map": "/BercailRestaurant/static/js/main.fbeebb22.js.map"
+    "main.9b53e56c.css.map": "/BercailRestaurant/static/css/main.9b53e56c.css.map",
+    "main.eed764e8.js.map": "/BercailRestaurant/static/js/main.eed764e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.760c0f8d.css",
-    "static/js/main.fbeebb22.js"
+    "static/css/main.9b53e56c.css",
+    "static/js/main.eed764e8.js"
   ]
 }
