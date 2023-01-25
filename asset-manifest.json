@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/BercailRestaurant/static/css/main.5ad4fc8e.css",
-    "main.js": "/BercailRestaurant/static/js/main.dd6eb177.js",
+    "main.css": "/BercailRestaurant/static/css/main.760c0f8d.css",
+    "main.js": "/BercailRestaurant/static/js/main.fbeebb22.js",
+    "static/media/bckgrndImage.png": "/BercailRestaurant/static/media/bckgrndImage.6fd2ddd6ea9ec0015c7a.png",
     "index.html": "/BercailRestaurant/index.html",
-    "main.5ad4fc8e.css.map": "/BercailRestaurant/static/css/main.5ad4fc8e.css.map",
-    "main.dd6eb177.js.map": "/BercailRestaurant/static/js/main.dd6eb177.js.map"
+    "main.760c0f8d.css.map": "/BercailRestaurant/static/css/main.760c0f8d.css.map",
+    "main.fbeebb22.js.map": "/BercailRestaurant/static/js/main.fbeebb22.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ad4fc8e.css",
-    "static/js/main.dd6eb177.js"
+    "static/css/main.760c0f8d.css",
+    "static/js/main.fbeebb22.js"
   ]
 }
