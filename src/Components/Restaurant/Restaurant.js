@@ -2,6 +2,8 @@ import React from 'react';
 import "./Restaurant.css";
 import image from '../../Assets/image20.png';
 import bckgrndImage from '../../Assets/bckgrndImage.png'
+import img2 from '../../Assets/50955d9a3ed59650cbcf93ceb4d901381d5f6bee1.png'
+import img1 from '../../Assets/f555e625-4e83-43cd-a6e5-1830229067681.png'
 
 const Restaurant = () => {
   return (
@@ -22,11 +24,12 @@ const Restaurant = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.
           </div>
           <h1 style={{marginTop : "50px"}}>Notre philosophie</h1>
-          <div style={{display : 'flex'}}>
+          <div style={{display : 'flex', marginTop : "60px"}}>
             <div style = {{marginRight : "90px"}}>
-              image here
+              <img style={{zIndex : 5, position : 'absolute', width : "40%"}} src={img1}></img>
+              <img style={{zIndex : 6, position : 'absolute', width : "25%", left : "30%", transform : "translate(0%, 40%)"}} src={img2}></img>
             </div>
-            <div>
+            <div className='secondDescription'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor.
             </div>
           </div>
