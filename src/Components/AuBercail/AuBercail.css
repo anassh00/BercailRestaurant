@@ -1,0 +1,13 @@
+.AuBercail {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+text-align: center;
+color: white;
+font-weight: 700;
+}
+.BercailPics{
+    display: flex;
+   justify-content: space-around;
+    height: 60%;
+}

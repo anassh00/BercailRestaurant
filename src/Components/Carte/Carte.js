@@ -1,9 +1,13 @@
 import React from 'react'
 import "./Carte.css"
 
+
 const Carte = () => {
   return (
-    <div className='cartePage'>Carte</div>
+    <div className='cartePage'>
+        
+    
+    </div>
   )
 }
 

@@ -1,6 +1,120 @@
-.reserverPage{
-    background-color: #6f3311;
+.reservationPage{
+   
     height: 100%;
     width: 100%;
     position: absolute;
 }
+.reservationSection{
+    
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.title{
+    color: white;
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    
+    
+}
+.reservationForm{
+    display: flex;
+    flex-flow: column;
+     padding: 40px 40%;
+     row-gap: 10px ;
+
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #DFE3C0;
+    border: none;
+}
+.reservationBtn2{
+ padding: 15px;
+ outline: none;
+ border-radius: 5px;
+ background-color:  #B2B884;
+ border: none;
+ color: white;
+ font-weight: 600;
+}
+.reservationBtn2:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    }
+
+
+
+
+@media (max-width :875px) 
+{
+
+    .reservationPage{
+   
+        height: 30vh;
+        
+    }
+    .homePage{
+    height:100%;
+    margin: 0;
+    padding: 0;
+    }
+
+    .reservationSection{
+         width: 100vh;
+         height:100vh;
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+    
+    .title{
+        color: white;
+        position: absolute;
+        top: 20px;
+        font-size: 60px;
+        font-weight: 500;
+        background-color: #6f3311;
+        
+    }
+    .reservationForm{
+         padding: 30px 35%;
+         row-gap: 10px ;
+    
+    }
+    input{
+        padding: 10px;
+        border-radius: 5px;
+        outline: none;
+        background-color: #DFE3C0;
+        border: none;
+    }
+    .reservationBtn2{
+     padding: 15px;
+     outline: none;
+     border-radius: 5px;
+     background-color:  #B2B884;
+     border: none;
+     color: white;
+    }
+  
+
+   
+}
+/* <div>  <img className='navMob' src={navMob}></img>                         </div> */
