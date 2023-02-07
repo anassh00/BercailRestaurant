@@ -8,8 +8,8 @@ const Reserver = () => {
   return (
     <div >
     
-            
-              <div className='homePage'>
+             
+              <div>
            
               <h1 className='title'> Faire une réservation </h1>
 
@@ -22,9 +22,9 @@ const Reserver = () => {
                 <p> Pour les réservations de plus de 8 personnes, merci de nous contacter  <br/> directement par téléphone au 04 87 37 02 87</p>
               
                 <div className='reservationForm'>
-                    <input type="text" value={"Date"} />
-                    <input type="text" value={"Heure"} />  
-                    <input type="text" value={"Nombre de personnes"} />
+                    <input  type="text" placeholder={"Date"} />
+                    <input type="text" placeholder={"Heure"} />  
+                    <input type="text" placeholder={"Nombre de personnes"} />
                     <button className='reservationBtn2'> Réserver </button>
 
             </div>

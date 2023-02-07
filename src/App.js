@@ -7,8 +7,8 @@ import './App.css';
 function App() {
   return (
     <div>
-    <NavBar>
-    </NavBar>
+    <NavBar/>
+   
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/Restaurant" element={<Restaurant/>}/>

@@ -1,6 +1,37 @@
 .contactPage{
-    background-color: #6f3311;
+
     height: 100%;
     width: 100%;
+  
+}
+
+.formContact {
+    
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: salmon 5px solid;
+ 
+}
+strong{
+    font-weight: 100;
+    font-size: 16px;
+     position: relative;
+     right: 50px;
+   margin-bottom: 25px;
+
+}
+.opening{
     position: absolute;
+    transform: translate(10% ,-250%);
+   display: flex;
+   justify-content: space-around;
+   color: aliceblue;
+   
+}
+.opening p {
+    padding-left: 200px;
+    margin-bottom: 20px;
 }

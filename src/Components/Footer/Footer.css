@@ -85,28 +85,24 @@ color:  #6F3311;
 
 
 
-@media screen and (max-width:875px) {
+
+
+
+
+
+@media  (max-width:875px) {
      
- 
     .navbarContainer {
         display : none;  
     }
 
-   .homePage {
-
-      width: 100vh;
-     margin: 0 auto;
-   }
-
-
-
     .Footer{
    
 
-         width: 95vh;
+         width: 100%;
          height: 80%;
        font-size: 16px;
-       flex: 1 1 20%;
+    
      }
      
      .informations{
@@ -173,4 +169,548 @@ color:  #6F3311;
          color: white;
        ;
   } 
+
+  .AuBercail {
+      width: 100%;
+    font-weight: 700;
+
+    }
+  
+    .logoBercail{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 48%;
+        top : 52%;
+        width: 250px;
+        height: 250px;
+    }
+    
+    .description{
+        margin-top: 5rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        text-align: center;
+    }
+    
+    
+    
+    .menu {
+        height: 235px;
+         margin : 0 ;
+        color: rgb(241, 241, 241) ;
+        background-color:#758D8E;
+        padding:  50px 0;
+        text-align: center;
        }
+    
+    span {
+        font-family: 'Shorelines Script Bold', sans-serif;
+        font-size: 18px;                                              
+    }
+     
+    .restaurentCard{
+        
+        background-color: #B2B884;
+        height: 600px;
+        display:  flex;
+        flex-direction:  column;
+         
+    }
+    address {
+        margin-top: 30px;
+    }
+    h2 {
+        font-family: 'Shorelines Script Bold', sans-serif;
+        font-size: 35px;
+        transform: translate(250px , 135px);
+        position: absolute;
+        color: white;
+    }
+       
+    .cardImage {
+        margin: 50px auto;  
+        height: 60%;
+    }
+    .discoverBtn {
+        transform: translate(250px , 200px);
+        position: absolute;
+        background-color: transparent;
+        border: white solid 2px;
+        color: white;
+        padding: 15px 50px;
+        font-weight: 700;
+        font-size :large;
+        transition: all .2s ease-in;
+    }
+    
+    .discoverBtn:hover{
+        padding: 15px 55px;
+    }
+    .openingTime{
+        padding: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        color: #6F3311;
+    }
+    .reservation{
+        padding: 30px 0;
+        text-align: center;
+        background-color: #D4BF7B;
+    }
+    .reservationBtn {
+        position :absolute;
+        transform: translate(-100px ,-50px);
+        padding:  10px 100px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background-color:  #6F3311;
+        color: white;
+    }
+    
+    .reservationBtn:hover{
+        background-color: #784324;
+        cursor: pointer;
+    } 
+    
+ 
+    
+    
+    
+        .HomePageImg{
+        width: 100%;
+       
+        }
+    
+        
+    .homePage{
+        width: 100%;
+        
+        
+        }
+    
+    .cardImage {
+        margin: 50px auto;  
+        width: 100%;
+    }
+    
+    .logoBercail{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 48%;
+        top : 52%;
+        width: 250px;
+        height: 250px;
+    }
+    .menu    {
+    
+    width: 100%;
+    }
+    .description{
+        margin-top: 5rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        text-align: center;
+    }
+    h4{
+        margin : 0 ;
+        color: rgb(241, 241, 241) ;
+        background-color:#758D8E;
+        padding:  50px 0;
+        text-align: center;
+     
+    }
+    span {
+        font-family: 'Shorelines Script Bold', sans-serif;
+        font-size: 18px;                                              
+    }
+     
+    .restaurentCard{
+        
+        width: 100%;
+        background-color: #B2B884;
+        height: 600px;
+        display:  flex;
+        flex-direction:  column;
+         
+    }
+    address {
+        margin-top: 30px;
+    }
+    h2 {
+        font-family: 'Shorelines Script Bold', sans-serif;
+        font-size: 35px;
+        transform: translate(250px , 135px);
+        position: absolute;
+        color: white;
+    }
+       
+    .cardImage {
+        margin: 50px auto;  
+        height: 60%;
+    }
+    .discoverBtn {
+        transform: translate(250px , 200px);
+        position: absolute;
+        background-color: transparent;
+        border: white solid 2px;
+        color: white;
+        padding: 15px 50px;
+        font-weight: 700;
+        font-size :large;
+        transition: all .2s ease-in;
+    }
+    
+    .discoverBtn:hover{
+        padding: 15px 55px;
+    }
+    .openingTime{
+        width: 100%;
+        padding: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        color: #6F3311;
+    }
+    .reservation{
+        padding: 30px 0;
+        text-align: center;
+        background-color: #D4BF7B;
+        width: 100%;
+    }
+
+    
+    
+    
+    .AuBercail {
+        background-color: #B2B884;
+        height:200px;
+        width: 100%;}
+    
+    
+    }
+    
+
+
+
+
+
+       
+
+       @media  (min-width: 340px) and (max-width: 600px) {
+    
+        .formContact {
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding:   0 20px;
+            align-items: center;
+         
+        }
+
+
+
+        .navbarContainer {
+            display : none;  
+        }
+    
+
+         .contactPage{
+                height: 100%;
+                width: 100%;
+        
+            }
+            
+         
+         .informations{
+         display : flex;
+         flex-flow: column;
+         justify-content: center;
+         row-gap:  12px ;
+         color:  #6F3311;
+       
+         font-size: 0.7rem;
+         
+         }
+         .links{
+            width: 25%;
+             row-gap: 10px;    
+             font-size: 0.8rem;
+             align-items: center;
+         }
+         .logoFooter{
+       
+            width: 25%;
+           
+            text-align: center;
+             
+         }
+         .logoImg{
+           width: 100%;
+          height: 100%;
+        }
+    
+        
+         .colaborators{
+         font-size: 0.7rem; 
+         width: 25%;   
+         align-items: center;   
+         }
+         .colabs{
+             padding: 0 10px;
+             width: 40%;           
+         }          
+         .FooterLinks {
+             font-size: 0.7rem;
+             width: 10px;
+         }
+         .socialMedia{
+             display: flex;
+             flex-flow: column;
+             justify-content: center;
+             row-gap: 5px;
+             color: white;
+                   
+          } 
+           .FooterLinks {
+               font-size: 0.7em;
+              width: 100%;
+           }
+           
+           .socialMedia{
+            width: 25%;
+             display: flex;
+             flex-flow: column;
+             justify-content: center;
+             row-gap: 12px;
+             color: white;
+           ;
+      } 
+    
+      .AuBercail {
+          width: 100%;
+        font-weight: 700;
+    
+        }
+      
+        .logoBercail{
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 48%;
+            top : 52%;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .description{
+            margin-top: 5rem;
+            margin-left: 7rem;
+            margin-right: 7rem;
+            text-align: center;
+        }
+        
+        
+        
+        .menu {
+            height: 235px;
+             margin : 0 ;
+            color: rgb(241, 241, 241) ;
+            background-color:#758D8E;
+            padding:  50px 0;
+            text-align: center;
+           }
+        
+        span {
+            font-family: 'Shorelines Script Bold', sans-serif;
+            font-size: 18px;                                              
+        }
+         
+        .restaurentCard{
+            
+            background-color: #B2B884;
+            height: 600px;
+            display:  flex;
+            flex-direction:  column;
+             
+        }
+        address {
+            margin-top: 30px;
+        }
+        h2 {
+            font-family: 'Shorelines Script Bold', sans-serif;
+            font-size: 35px;
+            transform: translate(250px , 135px);
+            position: absolute;
+            color: white;
+        }
+           
+        .cardImage {
+            margin: 50px auto;  
+            height: 60%;
+        }
+        .discoverBtn {
+            transform: translate(250px , 200px);
+            position: absolute;
+            background-color: transparent;
+            border: white solid 2px;
+            color: white;
+            padding: 15px 50px;
+            font-weight: 700;
+            font-size :large;
+            transition: all .2s ease-in;
+        }
+        
+        .discoverBtn:hover{
+            padding: 15px 55px;
+        }
+        .openingTime{
+            width: 100%;
+            padding: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10%;
+            color: #6F3311;
+        }
+        .reservation{
+            padding: 30px 0;
+            text-align: center;
+            background-color: #D4BF7B;
+        }
+        .reservationBtn {
+            position :absolute;
+            transform: translate(-100px ,-50px);
+            padding:  10px 100px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            background-color:  #6F3311;
+            color: white;
+        }
+        
+        .reservationBtn:hover{
+            background-color: #784324;
+            cursor: pointer;
+        } 
+    
+        
+            .HomePageImg{
+            width: 100%;
+           
+            }
+        
+            
+        .homePage{
+            width: 100%;
+            
+            
+            }
+        
+        .cardImage {
+            margin: 50px auto;  
+            width: 100%;
+        }
+        
+        .logoBercail{
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 48%;
+            top : 52%;
+            width: 250px;
+            height: 250px;
+        }
+        .menu    {
+        
+        width: 100%;
+        }
+        .description{
+            margin-top: 5rem;
+            margin-left: 7rem;
+            margin-right: 7rem;
+            text-align: center;
+        }
+        h4{
+            margin : 0 ;
+            color: rgb(241, 241, 241) ;
+            background-color:#758D8E;
+            padding:  50px 0;
+            text-align: center;
+         
+        }
+        span {
+            font-family: 'Shorelines Script Bold', sans-serif;
+            font-size: 18px;                                              
+        }
+         
+        .restaurentCard{
+            
+            width: 100%;
+            background-color: #B2B884;
+            height: 600px;
+            display:  flex;
+            flex-direction:  column;
+             
+        }
+        address {
+            margin-top: 30px;
+        }
+        h2 {
+            font-family: 'Shorelines Script Bold', sans-serif;
+            font-size: 35px;
+            transform: translate(250px , 135px);
+            position: absolute;
+            color: white;
+        }
+           
+        .cardImage {
+            margin: 50px auto;  
+            height: 60%;
+        }
+        .discoverBtn {
+            transform: translate(250px , 200px);
+            position: absolute;
+            background-color: transparent;
+            border: white solid 2px;
+            color: white;
+            padding: 15px 50px;
+            font-weight: 700;
+            font-size :large;
+            transition: all .2s ease-in;
+        }
+        
+        .discoverBtn:hover{
+            padding: 15px 55px;
+        }
+        .openingTime{
+            width: 100%;
+            padding: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10%;
+            color: #6F3311;
+        }
+        .reservation{
+            padding: 30px 0;
+            text-align: center;
+            background-color: #D4BF7B;
+            width: 100%;
+        }
+    
+        
+        
+        
+        .AuBercail {
+            background-color: #B2B884;
+            height:200px;
+            width: 100%;}
+        
+        
+
+    }
+    
+    

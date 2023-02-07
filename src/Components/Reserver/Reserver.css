@@ -1,7 +1,7 @@
 .reservationPage{
    
-    height: 100%;
-    width: 100%;
+  
+ 
     position: absolute;
 }
 .reservationSection{
@@ -62,19 +62,16 @@ input{
 {
 
     .reservationPage{
-   
+     width: 100%;
         height: 30vh;
         
     }
-    .homePage{
-    height:100%;
-    margin: 0;
-    padding: 0;
-    }
+ 
 
     .reservationSection{
-         width: 100vh;
+         width: 100%  ;
          height:100vh;
+       
         display: flex;
         flex-flow: column;
         justify-items: center;
@@ -94,6 +91,8 @@ input{
         
     }
     .reservationForm{
+      
+    
          padding: 30px 35%;
          row-gap: 10px ;
     

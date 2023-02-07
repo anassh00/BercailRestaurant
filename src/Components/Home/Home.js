@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Home.css"
+import {NavBar} from  '../index'
 import image from '../../Assets/image20.png'
 import bckgrndImage from '../../Assets/bckgrndImage.png'
 import grandCarrousel from '../../Assets/grandCarrousel.jpg'
@@ -8,11 +9,11 @@ import {AuBercail} from '../index'
 const Home = () => {
   return (
     <>
-    <div>               
+    <div>         
           <div className='homePage'>
           <div>  <img className='logoBercail' src={image} alt={"logo"}></img> </div>
 
-           <div>  <img style={{ width: "100%",height: "100%"}} src={bckgrndImage} alt={"photoHomePage"}></img> 
+           <div className='HomePageImg'>  <img style={{ width: "100%",height: "100%"}} src={bckgrndImage} alt={"photoHomePage"}></img> 
            </div>
           <div className='menu'> 
             <h4> Burgers, grillades et assiettes à  <span> &nbsp; partager  </span>dans un restaurant de style  <br/>
