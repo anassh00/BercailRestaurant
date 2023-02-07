@@ -12,7 +12,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: salmon 5px solid;
  
 }
 strong{
@@ -25,9 +24,11 @@ strong{
 }
 .opening{
     position: absolute;
-    transform: translate(10% ,-250%);
+    transform: translate(-50% ,-180%);
+    left : 38%;
+    width: 100%;
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    color: aliceblue;
    
 }
