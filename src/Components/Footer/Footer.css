@@ -396,106 +396,118 @@ color:  #6F3311;
 
 
 
-
+/*    media queries    Mobile */
 
        
 
-       @media  (min-width: 340px) and (max-width: 600px) {
-    
-        .formContact {
-            height: 50vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding:   0 20px;
-            align-items: center;
-         
-        }
-
-
-
+       @media  (min-width: 360px) and (max-width: 600px) {
         .navbarContainer {
             display : none;  
         }
-    
+      /*   PAGE RESERVATION */
+      .reservationForm{
+        padding: 0 50px;
+      }
+      .formContact {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding:   0 20px;
+        align-items: center;
+    }
+     .title { 
+      top: 170px;
+      font-size: 1rem;
+      font-weight: bold;
+    }
 
-         .contactPage{
-                height: 100%;
-                width: 100%;
+     .contactPage{
+            height: 100%;
+            width: 100%;
+        }
+  .reservationBtn2{
+    padding: 6px;
+    font-weight: 0.7rem;
+    position: relative;
+    left: 60px;
+  }
+
+/*  Footer */
         
-            }
-            
+        .Footer{ width: 100%;
          
+      }
+    
          .informations{
          display : flex;
          flex-flow: column;
-         justify-content: center;
-         row-gap:  12px ;
+         justify-content: start;
          color:  #6F3311;
-       
-         font-size: 0.7rem;
+         font-size: 0.5rem;;
          
          }
          .links{
             width: 25%;
              row-gap: 10px;    
-             font-size: 0.8rem;
+             font-size: 0.7rem;
              align-items: center;
          }
          .logoFooter{
-       
-            width: 25%;
-           
-            text-align: center;
-             
+            
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            height: 35%;
          }
          .logoImg{
            width: 100%;
           height: 100%;
+          align-self: center ;
         }
     
         
          .colaborators{
-         font-size: 0.7rem; 
+       
          width: 25%;   
          align-items: center;   
          }
          .colabs{
              padding: 0 10px;
-             width: 40%;           
+             width: 80%;  
+             height: 15%;         
          }          
          .FooterLinks {
-             font-size: 0.7rem;
+             font-size: 0.6rem;
              width: 10px;
          }
          .socialMedia{
              display: flex;
              flex-flow: column;
              justify-content: center;
-             row-gap: 5px;
+             row-gap: 2px;
              color: white;
                    
           } 
-           .FooterLinks {
-               font-size: 0.7em;
-              width: 100%;
+           .Footerlinks {
+               font-size: 0.8em;
+               font-weight: lighter;
+              
            }
            
            .socialMedia{
             width: 25%;
              display: flex;
              flex-flow: column;
-             justify-content: center;
-             row-gap: 12px;
+             justify-content: space-around;
+             row-gap: 8px;
              color: white;
            ;
       } 
     
-      .AuBercail {
-          width: 100%;
-        font-weight: 700;
-    
-        }
+   
       
         .logoBercail{
             position: absolute;
@@ -524,11 +536,7 @@ color:  #6F3311;
             text-align: center;
            }
         
-        span {
-            font-family: 'Shorelines Script Bold', sans-serif;
-            font-size: 18px;                                              
-        }
-         
+        
         .restaurentCard{
             
             background-color: #B2B884;
@@ -540,12 +548,12 @@ color:  #6F3311;
         address {
             margin-top: 30px;
         }
-        h2 {
-            font-family: 'Shorelines Script Bold', sans-serif;
-            font-size: 35px;
-            transform: translate(250px , 135px);
+        .carteDuRestau{
+           font-weight: 900;
+            font-size: 20px;
+            transform: translate(10px , 135px);
             position: absolute;
-            color: white;
+            color: rgb(227, 17, 17);
         }
            
         .cardImage {
@@ -553,12 +561,12 @@ color:  #6F3311;
             height: 60%;
         }
         .discoverBtn {
-            transform: translate(250px , 200px);
+            transform: translate(20px , 20px);
             position: absolute;
             background-color: transparent;
             border: white solid 2px;
             color: white;
-            padding: 15px 50px;
+           
             font-weight: 700;
             font-size :large;
             transition: all .2s ease-in;
@@ -584,12 +592,13 @@ color:  #6F3311;
         .reservationBtn {
             position :absolute;
             transform: translate(-100px ,-50px);
-            padding:  10px 100px;
+            padding:  3px 50px;
             border-radius: 10px;
             outline: none;
             border: none;
             background-color:  #6F3311;
             color: white;
+        
         }
         
         .reservationBtn:hover{
@@ -634,16 +643,26 @@ color:  #6F3311;
             text-align: center;
         }
         h4{
-            margin : 0 ;
+        
             color: rgb(241, 241, 241) ;
             background-color:#758D8E;
             padding:  50px 0;
             text-align: center;
          
         }
+        h1{
+           
+            text-align: center;
+        }
+        p{
+            font-size: 0.6rem;
+        }
         span {
             font-family: 'Shorelines Script Bold', sans-serif;
             font-size: 18px;                                              
+        }
+        h3 {
+            font-size: 0.8rem;
         }
          
         .restaurentCard{
@@ -656,9 +675,9 @@ color:  #6F3311;
              
         }
         address {
-            margin-top: 30px;
+            margin: 10px 3macpx;
         }
-        h2 {
+        .CarteDuRestau {
             font-family: 'Shorelines Script Bold', sans-serif;
             font-size: 35px;
             transform: translate(250px , 135px);
@@ -671,7 +690,7 @@ color:  #6F3311;
             height: 60%;
         }
         .discoverBtn {
-            transform: translate(250px , 200px);
+            transform: translate(20px , 20px);
             position: absolute;
             background-color: transparent;
             border: white solid 2px;
@@ -686,8 +705,8 @@ color:  #6F3311;
             padding: 15px 55px;
         }
         .openingTime{
-            width: 100%;
-            padding: 80px;
+            width: 90%;
+            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -710,7 +729,30 @@ color:  #6F3311;
             width: 100%;}
         
         
+            .opening{
+                display: none;
+              }
+              .opening p {
+                 
+                   display: none;
+              }
+  
 
+
+            
+              input {
+                padding:0;
+              }
+              textarea{
+                height :200px;
+              }
+              strong{
+                
+                position: static;
+                padding-top: 10px;
+                font-size: 0.7rem;
+                
+              };
     }
     
     

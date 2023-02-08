@@ -7,5 +7,6 @@ export {default as Restaurant} from './Restaurant/Restaurant'
 export {default as Footer} from './Footer/Footer'
 export {default as Pics} from './Pics/Pics'
 export {default as AuBercail} from './AuBercail/AuBercail'
+export{ default as CarouselHome} from './Carousel/CarouselHome'
 
  

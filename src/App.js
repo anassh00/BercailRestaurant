@@ -1,6 +1,9 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {Home , NavBar ,Carte ,Contact,Reserver , Footer ,Restaurant} from './Components/index'
 import './App.css';
+
+
 
 
 

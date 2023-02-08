@@ -27,10 +27,10 @@ const Contact = () => {
            <div className='formContact'>
 
             <strong>   Formulaire de Contact : </strong>
-            <input style={{border: " 1px solid green", marginBottom:"20px" ,paddingBottom:"10px",width:'60%'}}type={"text"} /> 
-            <input style={{border: " 1px solid green", marginBottom:"20px" ,paddingBottom:"10px",width:'60%'}}type={"text"} />
-            <input style={{border: " 1px solid green", marginBottom:"20px" ,paddingBottom:"10px",width:'60%'}}type={"text"} />
-            <textarea style={{outline:"none",width:'60%'}}cols="5" rows="10"></textarea>
+            <input placeholder='Nom' style={{border: " 1px solid green", marginBottom:"20px" ,paddingBottom:"10px",width:'60%'}}type={"text"} /> 
+            <input placeholder='Prénom' style={{border: " 1px solid green", marginBottom:"20px" ,paddingBottom:"10px",width:'60%'}}type={"text"} />
+            <input placeholder='E-mail' style={{border: " 1px solid green", marginBottom:"20px" ,paddingBottom:"10px",width:'60%'}}type={"text"} />
+            <textarea placeholder='Dites Nous quelque chose ...'style={{outline:"none",width:'60%'}}cols="5" rows="10"></textarea>
             <button className='reservationBtn2' style={{marginTop:"10px"}}> Envoyer</button>
 
            </div>

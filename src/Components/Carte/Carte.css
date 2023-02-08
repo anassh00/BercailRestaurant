@@ -1,2 +1,20 @@
+.BestSelers {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#B2B884;
+    height: 800px;
+}
+.sales{
+    padding: 30px;
+}
 
+.carteBtn {
+    border: salmon solid 5px;
+    width: 260px;
+    padding: 5px 20px;
+    color: rgb(229, 20, 20);
+    text-align: center;
+   
+}
 

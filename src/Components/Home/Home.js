@@ -4,7 +4,10 @@ import {NavBar} from  '../index'
 import image from '../../Assets/image20.png'
 import bckgrndImage from '../../Assets/bckgrndImage.png'
 import grandCarrousel from '../../Assets/grandCarrousel.jpg'
-import {AuBercail} from '../index'
+import {AuBercail ,Carte ,CarouselHome} from '../index'
+import { Carousel } from 'reactstrap'
+
+
 
 const Home = () => {
   return (
@@ -21,14 +24,12 @@ const Home = () => {
             </h4> 
               </div>
               <div className='restaurentCard'>
-               
-                <address style={{ textAlign: "center" , color: "white"}}>  14 Quai Antoine Riboud, 69002 Lyon </address>
-                <img className='cardImage' src={grandCarrousel} alt={"photoable"}></img>
-                  <h2> carte du restaurant</h2>
-                 <button className='discoverBtn'> Découvrir </button>
+              <address style={{ textAlign: "center" , color: "white"}}>  14 Quai Antoine Riboud, 69002 Lyon </address>
+
+                 <CarouselHome />
              </div>
               <div className='openingTime'> 
-           <h1> Nos Horaires <br/> <span style={{fontSize: '38px'}}> d'ouverture </span> 
+           <h1> Nos Horaires <br/> <span > d'ouverture </span> 
                 </h1>
                 <div >
                    <p>Lundi 12h - 23h   </p>
@@ -38,6 +39,7 @@ const Home = () => {
                    <p> Vendredi 12h - 23h </p>     
                    <p> samedi 12h - 23h     </p>     
                    <p>  Dimanche 12h - 22h </p> 
+                  
                  </div>  
                  </div>   
                  <div className='reservation'>
@@ -45,7 +47,9 @@ const Home = () => {
                 <p> Ou au  <a href="tel:123-456-7890"> 04 87 37 02 87</a>   </p>
                  </div>
                  <AuBercail/>
+
                 </div>
+              
    </div>
   </> 
   )

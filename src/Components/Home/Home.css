@@ -35,29 +35,34 @@
 
 span {
     font-family: 'Shorelines Script Bold', sans-serif;
-    font-size: 18px;                                              
+    font-size: 38px;                                              
 }
  
 .restaurentCard{
     
     background-color: #B2B884;
-    height: 600px;
+    height: 100%;
     display:  flex;
     flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+
      
 }
 address {
     margin-top: 30px;
 }
-h2 {
+.carteDuRestau{
     font-family: 'Shorelines Script Bold', sans-serif;
-    font-size: 35px;
+    font-size: 20px;
     transform: translate(250px , 135px);
     position: absolute;
-    color: white;
+    color: rgb(25, 86, 218);
+    display: none;
 }
    
 .cardImage {
+   display: none;
     margin: 50px auto;  
     height: 60%;
 }
@@ -71,6 +76,7 @@ h2 {
     font-weight: 700;
     font-size :large;
     transition: all .2s ease-in;
+    display: none;
 }
 
 .discoverBtn:hover{
@@ -104,11 +110,6 @@ h2 {
     background-color: #784324;
     cursor: pointer;
 } 
-
-.AuBercail {
-    background-color: #B2B884;
-    height: 400px;
-}
 
 
 
