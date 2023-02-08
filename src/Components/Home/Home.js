@@ -26,7 +26,7 @@ const Home = () => {
               <div className='restaurentCard'>
               <address style={{ textAlign: "center" , color: "white"}}>  14 Quai Antoine Riboud, 69002 Lyon </address>
 
-                 <CarouselHome />
+                 {/* <CarouselHome /> */}
              </div>
               <div className='openingTime'> 
            <h1> Nos Horaires <br/> <span > d'ouverture </span> 

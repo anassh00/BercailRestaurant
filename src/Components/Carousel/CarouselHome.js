@@ -58,7 +58,7 @@ function CarouselHome(args,props) {
     return (
       <CarouselItem
 
-        style={{height:props.height, width : props.width , display: 'flex', justifyContent: "center"}}
+        
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}

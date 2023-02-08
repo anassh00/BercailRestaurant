@@ -3,18 +3,34 @@
     align-items: center;
     flex-direction: column;
     background-color:#B2B884;
-    height: 800px;
+    height: 100%;
+    justify-content: space-around;
 }
 .sales{
+    width: 100%;
     padding: 30px;
+    display : flex;
+    flex-direction: row-reverse;
+    column-gap: 10px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .carteBtn {
-    border: salmon solid 5px;
+
     width: 260px;
+    height: 100%;
     padding: 5px 20px;
-    color: rgb(229, 20, 20);
     text-align: center;
    
 }
 
+.salesPic{
+width: 25%;
+height:25%;
+
+}
+.vide {
+    width: 25%;
+    height: 25%;
+}
