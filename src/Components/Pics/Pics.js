@@ -10,7 +10,7 @@ const Pics = (props) => {
    <>
     <div className="BercailPic">
          
-         <img style={{height:props.height, width : props.width}}src={img1} alt={"photoRestau"}>
+         <img style={{height:props.height, width : props.width ,borderRadius:props.borderRadius}}src={img1} alt={"photoRestau"}>
             </img>  
     </div>
 

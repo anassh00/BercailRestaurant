@@ -210,8 +210,8 @@ color:  #6F3311;
     .restaurentCard{
         
         background-color: #B2B884;
-        height: 600px;
         display:  flex;
+        height: 300px;
         flex-direction:  column;
          
     }
@@ -317,7 +317,6 @@ color:  #6F3311;
         
         width: 100%;
         background-color: #B2B884;
-        height: 600px;
         display:  flex;
         flex-direction:  column;
          
@@ -387,8 +386,20 @@ color:  #6F3311;
 
 
        button.nav-btn{
+        background-color: transparent;
+
         visibility: visible;
         opacity: 1;
+        color: #B2B884;
+        padding: 20px;
+        font-size: 30px;
+        transform: translate(-10px ,-40px);
+       }
+       button.nav-btn:hover{
+        background-color: white;
+        opacity: 0.4;
+        border-radius: 5px;
+    
        }
   
        .logo{
@@ -585,7 +596,6 @@ color:  #6F3311;
         .restaurentCard{
             
             background-color: #B2B884;
-            height: 600px;
             display:  flex;
             flex-direction:  column;
              
@@ -712,7 +722,6 @@ color:  #6F3311;
             
             width: 100%;
             background-color: #B2B884;
-            height: 600px;
             display:  flex;
             flex-direction:  column;
              

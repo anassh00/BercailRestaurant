@@ -1,5 +1,6 @@
-.BercailPic{
+div.BercailPic{
     margin-top: 50px  ;
     display: flex;
     justify-content: center; 
+    border-radius: 50px;
 }

@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     background-color:#B2B884;
-   border: rgb(241, 7, 179) solid 5px;
+ 
     justify-content: space-around;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .sales{
-    border: solid 2px red;
+ 
     width: 100%;
     padding: 25px;
     display : flex;
@@ -46,7 +46,7 @@
 }
 
 .salesPic{
-    border: rgb(21, 103, 196) solid 5px;
+  
 width: 25%;
 height:25%;
 

@@ -9,11 +9,10 @@ return (
     <div className='AuBercail'>
 
     <div className='BercailPics'>
-        <Pics width = "80%"  height="100%" />
-        <Pics width = "80%" height= "100%" />
-        <Pics width = "80%" height= "100%" />
-        <Pics width = "80%" height= "100%" />
-        <Pics width = "80%" height= "100%" />
+        <Pics width = "85%"  height="80%" borderRadius="100px" />
+        <Pics width = "85%" height= "80%" borderRadius="100px" />
+        <Pics width = "85%" height= "80%" borderRadius="100px" />
+    
     </div>
     
      <div ><img src={instagram} alt={"instagramPic"}></img>
