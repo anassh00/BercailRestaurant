@@ -29,7 +29,6 @@
 }
 .child2{
     row-gap: 50px;
-    border: solid 2px ;
     display: flex;
     justify-content: space-evenly;
 }
