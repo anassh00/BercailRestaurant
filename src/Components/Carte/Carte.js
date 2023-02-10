@@ -4,7 +4,7 @@ import  Burger from '../../Assets/Burger.png'
 import PizzaV from '../../Assets/PizzaV.png'
 import Planche from '../../Assets/planche.png'
 import Fromage from '../../Assets/fromage.png'
-import bckgrndImage from '../../Assets/bckgrndImage.png'
+import bckgrndImage from '../../Assets/bckgrndImageBis3.png'
 import Table from '../../Assets/Table.png'
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import {NavBar} from  '../index'
 import image from '../../Assets/image20.png'
-import bckgrndImage from '../../Assets/bckgrndImage.png'
+import bckgrndImage from '../../Assets/bckgrndImageBis3.png'
 import grandCarrousel from '../../Assets/grandCarrousel.jpg'
 import {AuBercail ,Carte ,CarouselHome} from '../index'
 import { Carousel } from 'reactstrap'

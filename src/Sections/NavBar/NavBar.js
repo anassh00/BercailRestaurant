@@ -36,8 +36,8 @@ const showNavbar =() => {
           <div onClick={() => routeChange('/Carte')}>La carte</div>
           <div onClick={() => routeChange('/Reserver')}>Reserver</div>
           <div onClick={() => routeChange('/Contact')} >Contact</div>
-          <div onClick={() => routeChange('/Contact')} ><img className='logoSocialMedia ' src={facebook}></img></div>
-          <div onClick={() => routeChange('/Contact')} ><img className='logoSocialMedia ' src={instagram}></img></div>
+          <div onClick={()=> window.open("https://www.facebook.com/Au-Bercail-Bar-%C3%A0-Bi%C3%A8res-Lyon-100213935878702")} ><img className='logoSocialMedia ' src={facebook}></img></div>
+          <div onClick={()=> window.open("https://www.instagram.com/aubercaillyon/")} ><img className='logoSocialMedia ' src={instagram}></img></div>
             <button>  <FaTimes className='nav-btn close-btn' onClick={showNavbar}/> </button>
           </div>
           <button> <FaBars className='nav-btn ' onClick={showNavbar}/> </button>
