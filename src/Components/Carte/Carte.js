@@ -4,7 +4,7 @@ import  Burger from '../../Assets/Burger.png'
 import PizzaV from '../../Assets/PizzaV.png'
 import Planche from '../../Assets/planche.png'
 import Fromage from '../../Assets/fromage.png'
-import bckgrndImage from '../../Assets/bckgrndImage.png'
+import bckgrndImage from '../../Assets/bckgrndImageBis3.png'
 import Table from '../../Assets/Table.png'
 
 
@@ -12,7 +12,7 @@ import Table from '../../Assets/Table.png'
 const Carte = () => {
   return (
     <div className='cartePage'>
-                <div className='HomePageImg'>  <img src={bckgrndImage} alt={"photoHomePage"}></img> 
+                <div className='HomePageImg'>  <img style={{ width: "100%",height: "100%"}} src={bckgrndImage} alt={"photoHomePage"}></img> 
                    </div>
                    <div  className='cardFlex'> 
                  <div className='child1'> 
