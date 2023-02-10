@@ -9,6 +9,7 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from 'reactstrap';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -17,18 +18,21 @@ const items = [
     src: carrou1,
     altText: 'Slide 1',
     caption: 'Le Bercail',
+    path : 'Restaurant',
     key: 1,
   },
   {
     src: carrou2,
     altText: 'Carte des Boissons  ',
     caption: 'Carte des Boissons',
+    path : 'Carte',
     key: 2,
   },
   {
     src: carrou3,
     altText: 'Carte du Restaurent ',
     caption: 'Carte du Restaurent ',
+    path : 'Carte',
     key: 3,
   },
 ];
@@ -36,6 +40,12 @@ const items = [
 function CarouselHome(args,props) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
+
+  let navigate = useNavigate(); 
+  const routeChange = (path) =>{ 
+    navigate(path);
+   
+  }
 
   const next = () => {
     if (animating) return;
@@ -63,7 +73,8 @@ function CarouselHome(args,props) {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img width={"100%"} height={"100%"} src={item.src} alt={item.altText} />
+        <img         onClick={() => routeChange('/'+item.path)}
+   style={{cursor : 'pointer'}} width={"100%"} height={"100%"} src={item.src} alt={item.altText} />
         <CarouselCaption
           captionText={item.caption}
           captionHeader={item.caption}

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import {NavBar} from  '../index'
 import image from '../../Assets/image20.png'
-import bckgrndImage from '../../Assets/bckgrndImage.png'
+import bckgrndImage from '../../Assets/bckgrndImageBis3.png'
 import grandCarrousel from '../../Assets/grandCarrousel.jpg'
 import {AuBercail ,Carte ,CarouselHome} from '../index'
 import { Carousel } from 'reactstrap'
@@ -16,7 +16,7 @@ const Home = () => {
           <div className='homePage'>
           <div>  <img className='logoBercail' src={image} alt={"logo"}></img> </div>
 
-           <div className='HomePageImg'>  <img src={bckgrndImage} alt={"photoHomePage"}></img> 
+           <div className='HomePageImg'>  <img style={{ width: "100%",height: "100%"}} src={bckgrndImage} alt={"photoHomePage"}></img> 
            </div>
           <div className='menu'> 
             <h4> Burgers, grillades et assiettes à  <span> &nbsp; partager  </span>dans un restaurant de style  <br/>

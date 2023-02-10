@@ -4,29 +4,49 @@ import  Burger from '../../Assets/Burger.png'
 import PizzaV from '../../Assets/PizzaV.png'
 import Planche from '../../Assets/planche.png'
 import Fromage from '../../Assets/fromage.png'
-import bckgrndImage from '../../Assets/bckgrndImage.png'
+import bckgrndImage from '../../Assets/bckgrndImageBis3.png'
 import Table from '../../Assets/Table.png'
+import { useEffect, useState } from 'react'
+import postService from '../../Services/post.service'
 
 
 
 const Carte = () => {
+  const API_URL = "https://bercail-restau-backend.herokuapp.com/";
+  
+  const [carte, setCarte] = useState("");
+  const [carteBoissons, setCarteBoissons] = useState("");
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+      const dataFetch = async () => {
+          let restaurant = await postService.getCarteRestaurant();
+          let boissons = await postService.getCarteBoisson();
+          // set state when the data received
+          setCarte(restaurant);
+          setCarteBoissons(boissons);
+          setLoading(false);
+      };
+
+      dataFetch();
+  }, [])
   return (
     <div className='cartePage'>
-                <div className='HomePageImg'>  <img src={bckgrndImage} alt={"photoHomePage"}></img> 
+                <div className='HomePageImg'>  <img style={{ width: "100%",height: "100%"}} src={bckgrndImage} alt={"photoHomePage"}></img> 
                    </div>
                    <div  className='cardFlex'> 
                  <div className='child1'> 
-                     <div style={{ color:'white',opacity:'0.8'}}> La Carte  </div>
+                     <div style={{ color:'white',opacity:'0.8', fontSize : "50px"}}> La Carte  </div>
                       <div style={{ color:'white' ,opacity:'0.8'}}> Parcourez nos cartes pour découvrir l’univers du Bercail  </div>
                   </div>
                 <div className='child2'>     
                   <div >
                         <div style={{ color:'white',opacity:'0.8'}}> Carte des Boissons </div>
-                       <button style={{ color:'white' ,padding:' 0 5px' , border:"none", borderRadius:"5px" ,width:'200px',opacity:'0.8'}} >  Eat Good !  </button> 
+                       <button onClick={()=> window.open(API_URL+"media/"+carteBoissons)} style={{ color:'white' ,padding:' 0 5px' , border:"none", borderRadius:"5px" ,width:'200px',opacity:'0.8'}} >  Drink Good !  </button> 
                   </div>
                   <div> 
-                         <div style={{ color:'white' , opacity:'0.8'}}> Carte des Boissons </div> 
-                        <button style={{ color:'white' ,padding:' 0 25px' ,border:"none" ,borderRadius:"5px",width:'200px',opacity:'0.8'}} >  Drink Good ! </button>
+                         <div style={{ color:'white' , opacity:'0.8'}}> Carte du Restaurant </div> 
+                        <button onClick={()=> window.open(API_URL+"media/"+carte)} style={{ color:'white' ,padding:' 0 25px' ,border:"none" ,borderRadius:"5px",width:'200px',opacity:'0.8'}} >  Eat Good ! </button>
                   </div>  
                 </div>
 
