@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className='contactPage'>
  
-    <div className='HomePageImg'>  <img style={{ width: "100%",height: "100%"}} src={bckgrndImage} alt={"photoHomePage"}></img> 
+    <div className='HomePageImg'>  <img src={bckgrndImage} alt={"photoHomePage"}></img> 
      <div className='opening'>
           <div> 
           <p>  <a href="tel:123-456-7890"> 04 87 37 02 87</a>   </p>

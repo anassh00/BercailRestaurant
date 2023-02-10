@@ -16,7 +16,7 @@ const Home = () => {
           <div className='homePage'>
           <div>  <img className='logoBercail' src={image} alt={"logo"}></img> </div>
 
-           <div className='HomePageImg'>  <img style={{ width: "100%",height: "100%"}} src={bckgrndImage} alt={"photoHomePage"}></img> 
+           <div className='HomePageImg'>  <img src={bckgrndImage} alt={"photoHomePage"}></img> 
            </div>
           <div className='menu'> 
             <h4> Burgers, grillades et assiettes à  <span> &nbsp; partager  </span>dans un restaurant de style  <br/>
@@ -26,7 +26,7 @@ const Home = () => {
               <div className='restaurentCard'>
               <address style={{ textAlign: "center" , color: "white"}}>  14 Quai Antoine Riboud, 69002 Lyon </address>
 
-                 {/* <CarouselHome /> */}
+                 <CarouselHome />
              </div>
               <div className='openingTime'> 
            <h1> Nos Horaires <br/> <span > d'ouverture </span> 

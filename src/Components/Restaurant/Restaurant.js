@@ -12,7 +12,7 @@ const Restaurant = () => {
 
     <>  
     <div className='restraurentContainer'>
-    <div className='HomePageImg'>  <img style={{ width: "100%",height: "100%"}} src={bckgrndImage} alt={"photoHomePage"}></img> 
+    <div className='HomePageImg'>  <img src={bckgrndImage} alt={"photoHomePage"}></img> 
 
      </div>
 

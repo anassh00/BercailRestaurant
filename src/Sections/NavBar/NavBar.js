@@ -17,19 +17,21 @@ const showNavbar =() => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
+
   let navigate = useNavigate(); 
   const routeChange = (path) =>{ 
     navigate(path);
+    navRef.current.classList.remove("responsive_nav");
    
   }
 
   return (
     <div>
 
-        <div className='navbarContainer' ref={navRef}>
+        <div className='navbarContainer' >
         <div className='logo' onClick={() => routeChange('/')} style={{cursor: 'pointer', fontWeight : 'bold', color : 'white'}}><img style={{ width : "100px", height : "100px", paddingTop : "40px", paddingLeft : "40px"}} src={image}></img></div>
 
-          <div className='navbarContent'>
+          <div id='navbarContent' className='navbarContent' ref={navRef}>
 
           <div onClick={() => routeChange('/')}>Home</div>
           <div onClick={() => routeChange('/Restaurant')}>Le Restaurant</div>
@@ -38,9 +40,12 @@ const showNavbar =() => {
           <div onClick={() => routeChange('/Contact')} >Contact</div>
           <div onClick={() => routeChange('/Contact')} ><img className='logoSocialMedia ' src={facebook}></img></div>
           <div onClick={() => routeChange('/Contact')} ><img className='logoSocialMedia ' src={instagram}></img></div>
-            <button>  <FaTimes className='nav-btn close-btn' onClick={showNavbar}/> </button>
+            <button onClick={showNavbar} className='nav-btn close-btn'>  <FaTimes  /> </button>
           </div>
-          <button> <FaBars className='nav-btn ' onClick={showNavbar}/> </button>
+
+          <button onClick={showNavbar} className='nav-btn'> 
+          <FaBars  />
+           </button>
 
         </div>
     

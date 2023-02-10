@@ -13,7 +13,7 @@ const Reserver = () => {
            
               <h1 className='title'> Faire une réservation </h1>
 
-               <div>   <img style={{height : "100%" ,width:"100%"}} src={bckgrndImage} alt={"photoHomePage"}></img> 
+               <div className='HomePageImg'> <img src={bckgrndImage} alt={"photoHomePage"}></img> 
                 </div>
                 
               </div>
