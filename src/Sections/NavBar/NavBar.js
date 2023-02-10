@@ -29,7 +29,6 @@ const showNavbar =() => {
     <div>
 
         <div className='navbarContainer' >
-        <div className='logo' onClick={() => routeChange('/')} style={{cursor: 'pointer', fontWeight : 'bold', color : 'white'}}><img style={{ width : "100px", height : "100px", paddingTop : "40px", paddingLeft : "40px"}} src={image}></img></div>
 
           <div id='navbarContent' className='navbarContent' ref={navRef}>
 
@@ -41,7 +40,8 @@ const showNavbar =() => {
             <button onClick={showNavbar} className='nav-btn close-btn'>  <FaTimes  /> </button>
           <div onClick={()=> window.open("https://www.facebook.com/Au-Bercail-Bar-%C3%A0-Bi%C3%A8res-Lyon-100213935878702")} ><img className='logoSocialMedia ' src={facebook}></img></div>
           <div onClick={()=> window.open("https://www.instagram.com/aubercaillyon/")} ><img className='logoSocialMedia ' src={instagram}></img></div>
-            <button>  <FaTimes className='nav-btn close-btn' onClick={showNavbar}/> </button>
+          <div className='logo' onClick={() => routeChange('/')} style={{cursor: 'pointer', fontWeight : 'bold', color : 'white'}}><img style={{ width : "100px", height : "100px", paddingTop : "40px", paddingLeft : "40px"}} src={image}></img></div>
+
           </div>
 
           <button onClick={showNavbar} className='nav-btn'> 

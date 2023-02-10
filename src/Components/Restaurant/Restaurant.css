@@ -1,0 +1,106 @@
+.restraurentContainer{
+       font-size: 0.7rem;
+    background-color: #B2B884;
+    }
+.intro {
+    background: transparent;
+   
+    padding: 30px 0;
+  
+}
+.histoire{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 30px 0;
+}
+.hist1{
+    width: 60%;
+}
+.Philo{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 0;
+    }
+.Philo1{
+  width: 40%
+}
+.Philo2 {
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column-reverse;
+}
+.grandma{
+   background-color: blue;
+    width: 100%;
+    position: absolute;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.grandmaAddress{
+    font-size: 0.5rem;
+    position: absolute;
+    transform: translate(270px,30px);
+}
+.likeGrandma{
+    font-size: 2rem;
+    font-family:'Shorelines Script Bold', sans-serif;
+    color: rgb(231, 234, 233);
+    position: absolute;
+    transform: translate(0, -200px);
+}
+
+.grandma{
+    background-color: blue;
+     width: 100%;
+     position: absolute;
+     
+     display: flex;
+     justify-content: space-around;
+ }
+ .grandmaAddress{
+     font-size: 0.5rem;
+     position: absolute;
+     transform: translate(270px,30px);
+ }
+ .likeGrandma{
+     font-size: 2rem;
+     font-family:'Shorelines Script Bold', sans-serif;
+     color: rgb(231, 234, 233);
+     position: absolute;
+     transform: translate(0, -200px);
+ }
+ .grandma{
+    background-color: blue;
+     width: 100%;
+     position: absolute;
+     
+     display: flex;
+     justify-content: space-around;
+ }
+ .grandmaAddress{
+     font-size: 0.5rem;
+     position: absolute;
+     transform: translate(270px,30px);
+ }
+ .likeGrandma{
+     font-size: 2rem;
+     font-family:'Shorelines Script Bold', sans-serif;
+     color: rgb(231, 234, 233);
+     position: absolute;
+     transform: translate(0, -200px);
+ }
+ .titrePage{
+    position: absolute;
+  
+     top:50%;
+     right:40%;
+     color: white;
+    font-size:2rem ; 
+ }
