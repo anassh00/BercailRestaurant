@@ -18,7 +18,7 @@ const Restaurant = () => {
     <div className='HomePageImg'>  <img style={{ width: "100%",height: "100%"}} src={bckgrndImage} alt={"photoHomePage"}></img> 
     </div>
       <div className='intro'>
-           <div className="titrePage" >  Le Restaurent 
+           <div className="titrePage" >  Le Restaurant 
            </div>
       <div className='grandma'>  
             <div className='likeGrandma'> Like In your Grandma’s Home 

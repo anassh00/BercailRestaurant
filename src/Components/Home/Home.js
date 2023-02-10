@@ -6,10 +6,16 @@ import bckgrndImage from '../../Assets/bckgrndImageBis3.png'
 import grandCarrousel from '../../Assets/grandCarrousel.jpg'
 import {AuBercail ,Carte ,CarouselHome} from '../index'
 import { Carousel } from 'reactstrap'
+import { useNavigate } from 'react-router-dom'
 
 
 
 const Home = () => {
+  let navigate = useNavigate(); 
+  const routeChange = (path) =>{ 
+    navigate(path);
+   
+  }
   return (
     <>
     <div>         
@@ -43,7 +49,7 @@ const Home = () => {
                  </div>  
                  </div>   
                  <div className='reservation'>
-                  <button className='reservationBtn'> Réserver</button>
+                  <button onClick={() => routeChange('/Reserver')} className='reservationBtn'> Réserver</button>
                 <p> Ou au  <a href="tel:123-456-7890"> 04 87 37 02 87</a>   </p>
                  </div>
                  <AuBercail/>
