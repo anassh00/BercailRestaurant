@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/BercailRestaurant/static/css/main.f6d5a4bc.css",
-    "main.js": "/BercailRestaurant/static/js/main.02a8e53e.js",
-    "static/media/bckgrndImage.png": "/BercailRestaurant/static/media/bckgrndImage.6fd2ddd6ea9ec0015c7a.png",
+    "main.css": "/BercailRestaurant/static/css/main.88314df7.css",
+    "main.js": "/BercailRestaurant/static/js/main.858af1fe.js",
     "static/media/comptoire1.jpeg": "/BercailRestaurant/static/media/comptoire1.6fd2ddd6ea9ec0015c7a.jpeg",
     "static/media/comptoire2.png": "/BercailRestaurant/static/media/comptoire2.6fd2ddd6ea9ec0015c7a.png",
+    "static/media/bckgrndImageBis3.png": "/BercailRestaurant/static/media/bckgrndImageBis3.34a11360e0af77cc6920.png",
     "static/media/carrou3.png": "/BercailRestaurant/static/media/carrou3.6e5affdc53ae854a56e7.png",
     "static/media/PizzaV.png": "/BercailRestaurant/static/media/PizzaV.d14128abd336019b2c46.png",
     "static/media/planche.png": "/BercailRestaurant/static/media/planche.b5bede95ffb9777e3412.png",
@@ -18,11 +18,11 @@
     "static/media/1d5f6bee1.png": "/BercailRestaurant/static/media/50955d9a3ed59650cbcf93ceb4d901381d5f6bee1.8e31715aeaaa6a7dba8d.png",
     "static/media/grandCarrousel.jpg": "/BercailRestaurant/static/media/grandCarrousel.4f2391b33dd4b67bce32.jpg",
     "index.html": "/BercailRestaurant/index.html",
-    "main.f6d5a4bc.css.map": "/BercailRestaurant/static/css/main.f6d5a4bc.css.map",
-    "main.02a8e53e.js.map": "/BercailRestaurant/static/js/main.02a8e53e.js.map"
+    "main.88314df7.css.map": "/BercailRestaurant/static/css/main.88314df7.css.map",
+    "main.858af1fe.js.map": "/BercailRestaurant/static/js/main.858af1fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6d5a4bc.css",
-    "static/js/main.02a8e53e.js"
+    "static/css/main.88314df7.css",
+    "static/js/main.858af1fe.js"
   ]
 }
